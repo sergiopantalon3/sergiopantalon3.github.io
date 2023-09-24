@@ -3,9 +3,9 @@
  */
 
 // assign pins based off circuit
-int redPin = 5;
-int greenPin = 6;
-int bluePin = 9;
+int redPin = 3;
+int greenPin = 5;
+int bluePin = 6;
 
 // the setup function runs once when you press reset or power the board
 void setup() {
