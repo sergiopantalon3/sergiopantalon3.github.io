@@ -4,6 +4,18 @@
 .aligncenter {
 	text-align: center;
 }
+.alignright {
+	text-align: right;
+}
+.alignleft {
+	text-align: left;
+}
+tr:nth-child(even) {
+  background-color: #3F7FBF55;
+}
+th, td {
+  padding: 10px;
+}
 </style>
 <title>Microcontroller Tutorial</title>
 </head>
@@ -13,9 +25,9 @@
 </header>
 <table>
 	<tr>
-		<th>Code</th>
-		<th>Schematic</th>
-		<th>Wiring Diagram</th>
+		<th class="alignleft">Code</th>
+		<th class="aligncenter">Schematic</th>
+		<th class="alignright">Wiring Diagram</th>
 	</tr>
 	<tr>
 		<td></td>
@@ -48,12 +60,14 @@
 		<td><a href="wiring/button_switch_wiring.png">Button Switch Wiring Diagram</a></td>
 	</tr>
 	<tr>
-		<td><a href="arduino/ask_arduino.txt">Ask Arduino</a></td>
-	</tr>
-	<tr>
 		<td><a href="arduino/night_light.txt">Project #4: Night Light</a></td>
 		<td><a href="schematics/night_light_schematic.png">Night Light Schematic</a></td>
 		<td><a href="wiring/night_light_wiring.png">Night Light Wiring Diagram</a></td>
+	</tr>
+	<tr>
+		<td><a href="arduino/ask_arduino.txt">Ask Arduino</a></td>
+		<td></td>
+		<td></td>
 	</tr>
 	<tr>
 		<td><a href="arduino/color_switcher.txt">Project #5: Real Time Color Switcher</a></td>
