@@ -20,7 +20,7 @@ void loop() {
   
   brightness = brightness + fade_amount;       // update the brightness for the next loop
 
-  if (brightness == 0 || brightness == 255) {  // if the LED is all the way off or on
+  if (brightness <= 0 || brightness >= 255) {  // if the LED is all the way off or on
     fade_amount = fade_amount * -1;            // change the direction of the fade
   }
   delay(30);                                   // pause to see the dimming effect
